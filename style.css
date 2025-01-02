@@ -1,64 +1,18 @@
-.container{
-    width: 300px;
+.outerbox {
+    width: 200px;
     height: 200px;
-    padding: 20px;
-    border: 5px solid red;
-    box-sizing: border-box;
-   }
-
-  .parent{
-    height: 650px;
-    width: 100%;
-    border-width: 100%;
-    background-color: aqua;
     padding: 10px;
+    border: 2px solid black;
+    position: relative;
+    background-color: red;
+    border-color: brown;
     border-style: solid;
-    border-color: red;
-  }
-  .child{
-    width: 300px;
-    height: 200px;
-    border-width: 50%;
-    border-style: solid;
-    border-color: blue;
-    background-color: black;
-    margin-top: 30px;
-    margin-bottom: 10px
-  }
-
-
-  
-  .cont1{
-    width: 50px;
-    height: 50px;
-    border-width: 10px;
-    border-style: solid;
-    margin-top: 30px;
-  }
-  .cont2{
-    width: 50px;
-    height: 50px;
-    border-width: 10px;
-    border-style: solid
-  }
-
-
-  .item-1{
+}
+.innerbox {
     width: 100px;
     height: 100px;
-    border-style: solid;
-    border-width: 5px;
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  
-  .item-2{
-    width: 100px;
-    height: 100px;
-    border-style: solid;
-    border-width: 5px;
-    display: inline-block;
-    margin-left: 20px;
-  }
-  
+    border: 2px solid blue;
+    position: absolute;
+    background-color: aqua;
+    top: 50px;
+}
