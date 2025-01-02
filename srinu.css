@@ -1,0 +1,17 @@
+.card {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    position: relative;
+    background-color: red;
+    border: 3px solid blue;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 2px solid aqua;
+    bottom: 0px;
+    background-color: black;
+    right: 0px;
+}
