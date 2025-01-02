@@ -1,0 +1,22 @@
+.tooltipcontainer {
+    width: 500px;
+    height: 500px;
+    position: static;
+    border: 3px solid red;
+    background-color: aliceblue;
+}
+.button {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border: 2px solid black;
+    background-color: blue;
+    top: 50px;
+}
+.tooltip {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: brown;
+    right: 0px;
+}
