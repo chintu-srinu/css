@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 800px;
+    background-color:violet;
+    color: white;
+    position: relative;
+    border: 4px solid black;
+}
+.item {
+    width: 500px;
+    height: 400px;
+    background-color: lightblue;
+    color: black;
+    position: absolute;
+    border: 2px solid blue;
+    top: 150px;
+    right: 450px;
+}
+input {
+    width: 250px;
+    height: 30px;
+}
+
+.chintu {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: lightgrey;
+    color: white;
+    border: 4px solid black;
+}
+.srinu {
+    width: 500px;
+    height: 350px;
+    background-color: lightblue;
+    color: black;
+    position: absolute;
+    border: 2px solid blue;
+    top: 150px;
+    right: 450px;
+}
