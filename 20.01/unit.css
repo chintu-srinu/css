@@ -1,0 +1,79 @@
+.boxpx {
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+    border: 2px solid black;
+}
+task2
+
+.parent {
+    width: 500px;
+    height: 200px;
+    border: 2px solid lightcoral;
+    background-color: white;
+}
+.child {
+    width: 50%;
+    height: 100px;
+    border: 2px solid lightblue;
+}
+task3
+.rem {
+   font-size: 50rem;
+    background-color: black;
+}
+html {
+    font-size: 2rem;
+}
+task4
+.parent {
+    font-size: 16px;
+}
+.child {
+    font-size:  1.5em;
+    
+}
+.boxvw {
+    width: 50vw;
+    border: 2px solid;
+    background-color: lightblue;
+}
+.boxvh {
+    height: 25vh;
+    background-color: lightgreen;
+    border: 2px solid;
+}
+task7
+.squarevmin {
+    height: 20vmin;
+    width: 20vmin;
+    border: 2px solid;
+    background-color: lightcoral;
+}
+task8
+.vmax {
+    border: 2px solid;
+    background-color: aqua;
+    width: 20vmax;
+    height: 20vmax;
+}
+.relative{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+  
+.absolute {
+    width: 70px;
+    height: 200px;
+    position: absolute;
+    border: 2px solid blue;
+    bottom: 0px;
+    right: 0px;
+}
+.parent {
+font-size: 20px;
+}
+.child {
+    font-size: inherit;
+}
